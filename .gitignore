@@ -1,0 +1,9 @@
+/Build
+/Release
+/Source/*/bin
+/Source/*/obj
+/Source/packages
+*.suo
+*.user
+*.ncrunch*
+*.cache

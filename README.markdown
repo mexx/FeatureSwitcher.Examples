@@ -1,0 +1,1 @@
+Examples showing how to use [FeatureSwitcher](https://github.com/mexx/FeatureSwitcher).
