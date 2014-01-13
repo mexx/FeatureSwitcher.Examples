@@ -41,8 +41,9 @@
     <Reference Include="Contexteer">
       <HintPath>..\packages\Contexteer.1.0.0\lib\4.0\Contexteer.dll</HintPath>
     </Reference>
-    <Reference Include="FeatureSwitcher">
-      <HintPath>..\packages\FeatureSwitcher.1.0.1\lib\4.0\FeatureSwitcher.dll</HintPath>
+    <Reference Include="FeatureSwitcher, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\FeatureSwitcher.1.1.0\lib\4.0\FeatureSwitcher.dll</HintPath>
     </Reference>
     <Reference Include="FeatureSwitcher.Configuration">
       <HintPath>..\packages\FeatureSwitcher.Configuration.1.0.1\lib\4.0\FeatureSwitcher.Configuration.dll</HintPath>
