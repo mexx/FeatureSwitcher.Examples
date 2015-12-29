@@ -1,4 +1,4 @@
-#I @"Source\packages\Fake\tools"
+#I @"packages\build\Fake\tools"
 #r "FakeLib.dll"
 
 open Fake
@@ -23,7 +23,7 @@ let deployDir = "./Release/"
 let slnReferences = !! (sourceDir @@ "*.sln")
 
 (* Targets *)
-Target "Clean" (fun _ -> 
+Target "Clean" (fun _ ->
     CleanDirs [buildDir; testDir; testOutputDir; deployDir]
 )
 

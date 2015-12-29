@@ -1,0 +1,16 @@
+source https://www.nuget.org/api/v2/
+
+nuget FeatureSwitcher.Configuration 1.0.1
+nuget FeatureSwitcher.Contexteer 1.0.1
+nuget Machine.Fakes.FakeItEasy 2.7.0
+nuget Machine.Specifications.Should 0.8.0
+
+group Build
+  source https://nuget.org/api/v2
+
+  nuget FAKE
+
+group Test
+  source https://nuget.org/api/v2
+
+  nuget Machine.Specifications.Runner.Console 0.9.1

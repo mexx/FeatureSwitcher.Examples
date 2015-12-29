@@ -1,0 +1,31 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Contexteer (1.0.0)
+    FakeItEasy (1.25.3)
+    FeatureSwitcher (1.1.0)
+    FeatureSwitcher.Configuration (1.0.1)
+      FeatureSwitcher (>= 1.0.1)
+    FeatureSwitcher.Contexteer (1.0.1)
+      Contexteer (>= 1.0.0)
+      FeatureSwitcher (>= 1.0.1)
+    Machine.Fakes (2.7)
+      Machine.Specifications (>= 0.9.1)
+    Machine.Fakes.FakeItEasy (2.7.0)
+      FakeItEasy (>= 1.25.3)
+      Machine.Fakes (2.7)
+    Machine.Specifications (0.9.3)
+    Machine.Specifications.Should (0.8.0)
+      Machine.Specifications (>= 0.9 < 1.0)
+
+GROUP Build
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    FAKE (4.12.0)
+
+GROUP Test
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Machine.Specifications.Runner.Console (0.9.1)
